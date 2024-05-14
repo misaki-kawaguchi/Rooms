@@ -12,6 +12,7 @@
 		14D6BD702BF2DFDA00CFA2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D6BD6F2BF2DFDA00CFA2F2 /* Assets.xcassets */; };
 		14D6BD732BF2DFDA00CFA2F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D6BD722BF2DFDA00CFA2F2 /* Preview Assets.xcassets */; };
 		14D6BD7B2BF2E0EF00CFA2F2 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BD7A2BF2E0EF00CFA2F2 /* Room.swift */; };
+		14D6BD7E2BF2E36300CFA2F2 /* UIColorValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BD7D2BF2E36300CFA2F2 /* UIColorValueTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		14D6BD6F2BF2DFDA00CFA2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D6BD722BF2DFDA00CFA2F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14D6BD7A2BF2E0EF00CFA2F2 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		14D6BD7D2BF2E36300CFA2F2 /* UIColorValueTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorValueTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		14D6BD6A2BF2DFD800CFA2F2 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
+				14D6BD7C2BF2E34400CFA2F2 /* Value Transformers */,
 				14D6BD792BF2E0DA00CFA2F2 /* Models */,
 				14D6BD6B2BF2DFD800CFA2F2 /* RoomsApp.swift */,
 				14D6BD6D2BF2DFD800CFA2F2 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				14D6BD7A2BF2E0EF00CFA2F2 /* Room.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		14D6BD7C2BF2E34400CFA2F2 /* Value Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				14D6BD7D2BF2E36300CFA2F2 /* UIColorValueTransformer.swift */,
+			);
+			path = "Value Transformers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D6BD6E2BF2DFD800CFA2F2 /* ContentView.swift in Sources */,
+				14D6BD7E2BF2E36300CFA2F2 /* UIColorValueTransformer.swift in Sources */,
 				14D6BD6C2BF2DFD800CFA2F2 /* RoomsApp.swift in Sources */,
 				14D6BD7B2BF2E0EF00CFA2F2 /* Room.swift in Sources */,
 			);
